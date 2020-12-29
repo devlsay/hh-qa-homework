@@ -1,0 +1,17 @@
+{
+  "name": "hh-qa-homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devlsay/hh-qa-homework.git",
+  "author": "devlsay <devlsay@yandex.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000 ./source/vacancies.tests.js"
+  }
+}
